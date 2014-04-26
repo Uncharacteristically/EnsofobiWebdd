@@ -1,0 +1,200 @@
+.photonav{
+    position:relative;
+    list-style-type: none;
+    padding:0;
+    margin:0;
+}
+.photonav li{
+    margin:5px;
+    padding:0;
+    position:relative;
+    display:block;
+    height:140px;
+    width:115px;
+    float:left;
+    background-image:url(/images/edropgallery3.jpg);
+    background-position:-9000px -9000px;
+    
+}
+.photonav li span.tip{
+    position:absolute;
+    top:-20px;
+    left:40px;
+    font-size:12px;
+    line-height:14px !important;
+    background:rgba(250,250,0,0.5);
+    display:none;
+    width:130px;
+    padding:10px;
+    border:1px solid #000;
+    border-radius:6px;
+    z-index:900;
+}
+.photonav li:hover span.tip{
+    display:inline-block;
+}
+
+
+#phototop{
+    border:1px solid #fcc;
+    z-index:10;
+    background:transparent;
+}
+#photobottom{
+    height:500px;
+    overflow:auto;
+    z-index:20;
+}
+.photopanel{
+    display:none;
+}
+.photoholder{
+    height:150px;
+    width:auto;
+    z-index:1000;
+    margin:0;
+    border:1px solid #000;
+    z-index:100;
+}
+.photoframe{
+    padding:5px;
+    background:#ffe;
+    float:left;
+    margin:5px;
+    border:1px solid #000;
+    position:relative;
+    z-index:10;
+    height:150px;
+    width:150px;   
+}
+.photoedit,.videoedit{
+    position:absolute;
+    bottom:5px;
+    right:5px;
+    z-index:3500;
+}
+.drag-hand,.video-drag-hand{
+    height:16px;
+    width:16px;
+    float:left;
+    z-index:2000;
+    position:absolute;
+    right:2px;
+    top:2px;
+    background:#fec;
+    padding:5px;
+    border:1px solid #000;
+    box-shadow:1px 1px 2px #666;
+    border-radius:16px;
+}
+
+
+.imgList{
+    display:none;
+}
+#photoeditor{
+    display:none;
+    position:absolute;
+    top:100px;
+    left:100px;
+    z-index:10000;
+    width:350px;
+    padding:10px;
+    height:350px;
+    background:#fff;
+    border:1px solid #000;
+    border-radius:6px;
+}
+#videoform{
+    display:none;
+    position:absolute;
+    top:100px;
+    left:100px;
+    z-index:10000;
+    width:350px;
+    padding:10px;
+    height:450px;
+    background:#fff;
+    border:1px solid #000;
+    border-radius:6px;
+}
+#video_code{
+    width:325px;
+    height:100px;
+}
+#video_description{
+    width:325px;
+    height:150px;
+}
+.videoframe{
+    z-index:100;
+    border:1px solid #f00;
+    position:relative;
+    height:315px;
+    width:600px;
+    background:#000;
+}
+.videolegend{
+    position:absolute;
+    height:50%;
+    top:50%;
+    width:100%;
+    left:0;
+    z-index:3000;
+    background:rgba(255,255,255,0.75);
+}
+#photoeditor label{
+    padding:0;
+    margin:0;
+}
+#photoeditor input[type=checkbox]{
+    padding:0;
+    margin:0;
+}
+#photo_title{
+    width:300px;
+}
+#photo_description{
+    width:300px;
+    height:80px;
+}
+.photolegend{
+    position:absolute;
+    top:50%;
+    left:3px;
+    padding:0 0 0 5px;
+    width:140px;
+    height:50%;
+    font-size:12px;
+    line-height:14px !important;
+    border:1px solid #000;
+    z-index:3000;
+    background:rgba(225,225,225,0.9);
+    overflow:hidden;
+    text-overflow:ellipsis;
+}
+.photolegend h5{
+    padding:0;
+    margin:0;
+}
+.cat-total{
+    color:#13c;
+    font-weight:bold;
+    position:absolute;
+    bottom:40px;
+    right:30px;
+    height:16px;
+    width:16px;
+    line-height:16px;
+    text-align:center;
+    background:rgba(255,255,255,0.8);
+    border-radius:9px;
+    border:1px solid #000;
+    box-shadow:1px 1px 3px #000;
+}
+#profilePhotoSpan{
+    height:160px;
+    width:220px;
+    background-size:contain;
+	background-repeat:no-repeat;
+}
