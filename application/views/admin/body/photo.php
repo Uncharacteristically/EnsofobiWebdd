@@ -1,7 +1,9 @@
 <?php
 defined('SYSPATH') or die('No direct script access.');
 ?>
+
 <div id="page-content">
+<div class="header_icons"> <img src="../../../../images/upload_icon.jpg"> 			</div>
     <h1 id="page-header">Photos / Videos</h1>	
     <div class="fluid-container">
         <section id="widget-grid" class="">
