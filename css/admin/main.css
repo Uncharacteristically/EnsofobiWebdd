@@ -1,0 +1,19 @@
+.clear{
+    display:block;
+    height:1px;
+    line-height:1px;
+    width:100%;
+    clear:both;
+}
+#bigmask{
+    background:rgba(0,0,0,0.5);
+    position:absolute;
+    top:0;
+    left:0;
+    height:100%;
+    width:100%;
+    z-index:1000;
+    display:none;
+}
+
+

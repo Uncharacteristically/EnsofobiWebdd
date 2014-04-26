@@ -1,0 +1,135 @@
+@charset "UTF-8";
+/* CSS Document */
+.fobiefeed2 {
+ float: left;
+ height: auto;
+ overflow: scroll;
+ width: 480px;
+ background:#FFF;
+}
+.statusholder{
+	background-image:url(../images/bgfobifeed.gif);
+	width:425px;
+	height:90px;
+	float:left;
+	margin-left:10px;
+
+	
+}
+.feedprofileholder{
+	width: 70px;
+	height: 70px;
+	float: left;
+	margin-top: 12px;
+	margin-right: 5px;
+	margin-bottom: 10px;
+	margin-left: 10px;
+	overflow: visible;
+}
+.profilepictureholder{
+	width: 55px;
+	height: 55px;
+	margin-left: 7px;
+	float: left;
+	overflow: hidden;
+	margin-bottom: 3px;
+}
+.profilepictureholderc{
+	width: 35px;
+	height: 35px;
+	margin-left: 30px;
+	margin-top: 15px;
+	float: left;
+	overflow: hidden;
+	margin-bottom: 3px;	
+}
+.profilenameholder{
+	
+	text-align: center;
+	alignment-baseline: central;
+	vertical-align: middle;
+	
+}
+.statusaream{
+	float:right;
+	margin-right:20px;
+	margin-top:5px;
+	width:300px;
+	height:70px;
+	padding:5px;
+}
+.statusarea{
+	float:right;
+	margin-right:20px;
+	margin-top:5px;
+	width:280px;
+	height:70px;
+	padding:5px;
+}
+.statusdatem{
+	width:290px;
+	float:left;
+	height:15px;
+	margin-bottom:15px;
+}
+.statusdate{
+	width:270px;
+	float:left;
+	height:15px;
+	margin-bottom:15px;
+}
+.commentarea{
+	float: left;
+	width: 75px;
+	height: 26px;
+	margin-left: 360px;	
+	
+	margin-bottom:5px;
+}
+.commentarea a{
+	color: #060;
+	font-size: 14px;
+	float:left;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	text-decoration: none;
+	
+}
+.statuscomment{
+	float:left;
+	background-image:url(../images/bgcomentstatus.gif);
+	height:90px;
+	width:435px;
+        border:1px dotted #ddd;
+        border-radius:6px;
+        margin:2px;
+}
+.statuscomment2{
+	float:left;
+	background-image:url(../images/bgcomentstatus2.gif);
+	height:90px;
+	width:435px;
+}
+#statuscomment3{
+	float:left;
+	background-image:url(../images/bgcomentstatus3.gif);
+	height:90px;
+	width:435px;
+	
+}
+.divider{
+	width:290px;
+	float:left;
+	height:2px;
+	background-color:#000;
+	margin-left:120px;
+	margin-top:4px;
+	
+}
+.commentfloat{
+	background-image: url(../images/commentbarfloat.jpg);
+	float: left;
+	height: 20px;
+	width: 435px;
+	margin-top: 5px;	
+}
+

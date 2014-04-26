@@ -1,0 +1,76 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+<head>
+
+	<link rel="stylesheet" href="css/colorpicker.css" type="text/css" />
+
+	<link rel="stylesheet" href="css/layout.css" type="text/css" />
+
+   
+
+	<script type="text/javascript" src="js/jquery.js"></script>
+
+	<script type="text/javascript" src="js/colorpicker.js"></script>
+
+        <script>
+
+            $(document).ready(function(){
+
+               $('#colorpickerHolder2').ColorPicker({
+
+			flat: true,
+
+			color: '#00ff00',
+
+			onSubmit: function(hsb, hex, rgb) {
+
+				$('#colorSelector2 div').css('backgroundColor', '#' + hex);
+
+			}
+
+		});
+
+		$('#colorpickerHolder2>div').css('position', 'absolute');
+
+		var widt = false;
+
+		$('#colorSelector2').bind('click', function() {
+
+			$('#colorpickerHolder2').stop().animate({height: widt ? 0 : 173}, 500);
+
+			widt = !widt;
+
+		});
+
+            });
+
+            </script>
+
+</head>
+
+<body>
+
+                <p id="colorpickerHolder">
+
+                </p>
+
+
+
+<div id="customWidget">
+
+<div id="colorSelector2"><div style="background-color: #00ff00"></div></div>
+
+    <div id="colorpickerHolder2">
+
+    </div>
+
+</div>
+
+
+
+</body>
+
+</html>
+

@@ -1,0 +1,99 @@
+@charset "UTF-8";
+/* CSS Document */
+/*Fobiinterest */
+
+#addarea{
+	float:left;
+	padding:5px;
+}
+
+#fobicategory{
+	float: left;
+	width: 450px;
+	height: 25px;
+	padding-left: 5px;
+	padding-top: 4px;
+	margin-top: 6px;
+	text-align: center;
+	background-image: url(images/bgheadercouponcategory.jpg);
+	background-repeat: no-repeat;
+}
+.couponarea{
+	width: 275px;
+	height: 137px;
+	float: left;
+	background-image:url(../images/bgcoupon.jpg);
+	margin-left: 1px;
+}
+#fobiinterestholder{
+	width: auto;
+	height: 400px;
+	float: left;
+	background-color:#FFF;
+	margin-left:-5px;
+
+}
+#logoholder{
+	
+	height: 60px;
+	margin-left: 15px;
+	margin-top: 30px;
+	float: left;
+	overflow: hidden;
+	margin-bottom: 6px;
+}
+#coupondetails{
+	margin-left:10px;
+	margin-top:30px;
+	float:left;
+	width:125px;
+	height:75px;
+	font-size:12px;
+	position:relative;
+			
+	
+	
+}
+#coupondetails a{
+	text-decoration:underline;
+	font-size:12px;
+	font-weight:300;
+	color:#000;
+}
+#couponbrand{
+	float:left;
+	margin-left:30px;
+	
+	width:65px;
+	height:15px;
+	text-decoration:none;
+	font-size:11px
+}								
+#couponbrand a{
+	text-decoration:none;
+	color:#000;
+}
+#couponends{
+	float:left;
+	margin-left:70px;
+	
+	width:110px;
+	height:15px;
+	text-decoration:none;
+	font-weight:800;
+	font-size:12px;
+	color:#C60;
+}
+#close{
+	width:10px;
+	float:right;
+	height:10px;
+	color:#F00;
+	background-color:#FFF;
+	padding:2px;
+	
+}
+#close a{
+	text-decoration:none;
+	color:#F00;
+}

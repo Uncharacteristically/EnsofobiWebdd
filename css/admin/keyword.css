@@ -1,0 +1,13 @@
+.klink{
+    padding:2px;
+    border:1px solid #000;
+    border-radius:2px;
+    margin:2px;
+    display:inline-block;
+}
+#good-keywords,#new-keywords,#bad-keywords,#search-keywords,#merge-keywords{
+    border:1px solid rgba(82,68,236,0.6);
+    min-height:150px;
+    padding:20px;
+    border-radius:10px;
+}

@@ -1,0 +1,215 @@
+.merchandise_tn{
+    height:30px;
+    width:30px;
+    border:1px solid #aad;
+    background-size:cover;
+    dsiplay:block;
+    margin:3px;
+    box-shadow:2px 2px 2px #000;
+}
+.slide_container{
+    width:70%;
+    height:95%;
+    margin:15px auto;
+    border:3px double #6a0;
+    overflow:hidden;
+    box-shadow:2px 2px 2px #9a9;
+}
+.slide_content{
+    margin-bottom:10px;
+}
+.slide_title{
+    font-weight:bold;
+}
+.more_slide{  
+    height:340px;
+    width:300px;
+    border:3px double #6a0;
+    box-shadow:2px 2px 2px #9a9;
+    background:#fff;
+    position:absolute;
+    top:-10px;
+    left:-10px;
+    display:none;
+     z-index:5000 !important;
+}
+.slide_image{
+    height:64px;
+    width:64px;
+    border:3px double #000;
+    background:#ddd;
+    margin:0 auto 10px auto;
+}
+.swiper-slide-active .slide_image{
+    height:160px;
+    width:160px;
+    clear:both;
+	
+}
+.swiper-slide-active .slide_container{
+    background:#fff;
+    width:90%;
+}
+.more_click{
+    display:none;
+}
+.swiper-slide-active .more_click{
+    display:block;
+}
+.slide_pad{
+    margin:10px;
+}
+#merchandiseform{
+    width:800px;
+    height:400px;
+    border:1px solid #000;
+    border-radius:10px;
+    padding:10px;
+    box-shadow:2px 2px 2px #000;
+    z-index:4000;
+    position:absolute;
+    top:100px;
+    left:250px;
+    background:#fff;
+    display:none;
+}
+#merchandiseformleft{
+    width:300px;
+    float:left;
+}
+#merchandise_photo_holder,#merchandise_photo_mockup,.merchandisephotoholder{
+    height:64px;
+    width:64px;
+    border:1px #777 solid;
+    background:#f1efef;
+    background-size:64px 64px;
+    background-repeat:no-repeat;
+    box-shadow:1px 1px 1px #000;
+}
+.merchandise{
+    position:relative;
+}
+.merchandiseedit{
+    position:absolute;
+    bottom:10px;
+    right:10px;
+    cursor:pointer;
+}
+.merchandiseedit:hover{
+    bottom:11px;
+    right:11px;
+}
+#merchandise_mockup,#merchandiselist ul{
+    list-style: none;
+    padding:0;
+    margin:0;
+}
+#merchandiseformright{
+    width:500px;
+    float:left;
+}
+.tn_frame{
+    height:40px;
+    width:40px;
+    margin:3px;
+    border:1px solid #000;
+    display:inline-block;
+}
+.pagination {
+  position: absolute;
+  left: 0;
+  text-align: center;
+  top:-20px;
+  width: 100%;
+}
+.swiper-pagination-switch {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 10px;
+  background: #cfc;
+  box-shadow: 0px 1px 2px #5f5 inset;
+  margin: 0 3px;
+  cursor: pointer;
+}
+.swiper-active-switch {
+  background: #fff;
+}
+.arrow-left {
+  background: url(/img/arrows.png) no-repeat left top;
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  margin-top: -15px;
+  width: 17px;
+  height: 30px;
+}
+.arrow-right {
+  background: url(/img/arrows.png) no-repeat left bottom;
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  margin-top: -15px;
+  width: 17px;
+  height: 30px;
+}
+/*
+	Ratings Stars
+	(with as little code as possible)
+*/
+.rating {
+  unicode-bidi: bidi-override;
+  direction: rtl;
+  text-align: center;
+}
+.rating > span {
+  display: inline-block;
+  position: relative;
+  width: 1.1em;
+}
+/*
+.rating > span:hover,
+.rating > span:hover ~ span {
+  color: transparent;
+}
+.rating > span:hover:before,
+.rating > span:hover ~ span:before {
+   content: "\2605";
+   position: absolute;
+   left: 0; 
+   color: gold;
+}*/
+.rating > span:before{
+    color: transparent;
+}
+.rating > span.score:before{
+   content: "\2605";
+   position: absolute;
+   left: 0; 
+   color: gold;
+}
+.bubble{
+    height:18px;
+    width:18px;
+    line-height:18px;
+    font-size:14px;
+    font-weight:bold;
+    color:#fff;
+    text-shadow:1px 1px 1px #000;
+    background:rgba(50,105,50,.8);
+    border-radius:9px;
+    border:1px solid #3f4;
+}
+#merchandise-detail{
+    height:800px;
+    width:600px;
+    background:#fff;
+    position:absolute;
+    top:100px;
+    left:200px;
+    z-index:5000;
+    border:2px solid #000;
+    box-shadow:2px 2px 2px #000;
+    border-radius:10px;
+    display:none;
+}
