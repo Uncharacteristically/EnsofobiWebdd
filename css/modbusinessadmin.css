@@ -278,50 +278,52 @@ aside{
 }
 /*Sidebar*/
 #topholderarts a {
- background-image: url(../images/topfobiarts_over.jpg);
+ background-image: url(../images/toparts.jpg);
  background-repeat:no-repeat;
  color: #000;
  float: left;
- font-size: 11px;
- height: 25px;
+ font-size: 12px;
+ height: 35px;
  margin-bottom: 12px;
- margin-left: 0px;
+ margin-left: -20px;
+ margin-top: 10px;
  padding-left: 40px;
- padding-top: 5px;
+ padding-top: 12px;
  text-decoration: none;
- width:200px;
+ width:250px;
 
 }
 #topholderbusiness a{
- background-image: url(../images/topfobibusiness_over.jpg);
+
+ background-image: url(../images/topbusiness.jpg);
  background-repeat:no-repeat;
  color: #000;
  float: left;
- font-size: 11px;
- height: 25px;
+ font-size: 12px;
+ height: 35px;
  margin-bottom: 12px;
- margin-left: 0px;
+ margin-left: -20px;
  margin-top: 10px;
  padding-left: 40px;
- padding-top: 5px;
+ padding-top: 12px;
  text-decoration: none;
-  width:200px;
+ width:250px;
  
 }
 #topholdercommunity a {
- background-image: url(../images/topfobicommunity_over.jpg);
+ background-image: url(../images/topcommunity.jpg);
  background-repeat:no-repeat;
  color: #000;
  float: left;
- font-size: 11px;
- height: 25px;
+ font-size: 12px;
+ height: 35px;
  margin-bottom: 12px;
- margin-left: 0px;
+ margin-left: -20px;
  margin-top: 10px;
  padding-left: 40px;
- padding-top: 5px;
+ padding-top: 12px;
  text-decoration: none;
- width:200px;
+ width:250px;
 }
  /*requestform*/
 
